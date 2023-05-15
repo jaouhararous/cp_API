@@ -35,7 +35,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className='main-title'>in memory of who died in rick and morty</h1>
+      <h1 className='main-title'>🪦 In Memory of Who Died in Rick and Morty 🪦</h1>
       <div className='box-container'>
         {Data.map(character => (
           <Charachter key={character.id} character={character} />
